@@ -37,9 +37,10 @@ export const deleteMovie = id => {
 
     if(movies.length > cleanedMovies.length){
         movies = cleanedMovies;
-
+        
         return true;
     }else{
+    
         return false;
     }
 }
